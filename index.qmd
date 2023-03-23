@@ -28,6 +28,10 @@ format:
     hide-inactive-cursor: true
     highlight-style: printing
     pause: true
+title-slide-attributes:
+    data-background-image: "img/bgimage.png"
+    data-background-position: 0% 95%
+    data-background-size: contain
 ---
 
 ## Über mich {.smaller}
@@ -43,10 +47,14 @@ format:
 - <i class="fa-solid fa-globe icon"></i> [{{< var instructor.url >}}]({{< var instructor.url >}})
 - <i class="fa-brands fa-twitter icon"></i> [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
 
-<br>
-[Achtung:]{.hl .hl-dred .secfont} Ich bin kein ausgebildeter Grafiker sondern Autodidakt. Meine Grafiken erstelle ich mit der Statistiksoftware R.
+<br> 
+
+- <i class="fa-solid fa-graduation-cap"></i> Ich bin kein ausgebildeter Grafiker sondern Autodidakt.
+- <i class="fa-solid fa-image"></i> Eine Auswahl meiner Grafiken ist unter [https://mschnetzer.github.io/portfolio/](https://mschnetzer.github.io/portfolio/)
 :::
 :::
+
+
 
 ## Über diesen Workshop {.medium}
 
@@ -62,17 +70,17 @@ Was sind die Ziele des Workshops?
 - [Inspiration]{.marker-hl} aus einer Vielzahl unterschiedlicher Grafiktypen
 - Erfahrungen aus [best practice Beispielen]{.marker-hl}
 
-## Was sind die Erwartungen?
+## Was sind eure Erwartungen?
 
 ![](img/group3.png){.absolute bottom="0%" left="0%" height="400px"}
 ![](img/group2.png){.absolute bottom="0%" left="15%" height="400px"}
 ![](img/group1.png){.absolute bottom="0%" left="33%" height="400px"}
 ![](img/group4.png){.absolute bottom="0%" left="50%" height="400px"}
 
-[Gibt es aus der Gruppe besondere Erwartungen an diesen Workshop?]{.bubble .bubble-bottom-right .absolute top="15%" right="0%" style="max-width:400px;--bubcol: var(--bubcol-dred); font-size:1.8rem;"}
+[Habt ihr spezielle Erwartungen oder Wünsche für diesen Workshop?]{.bubble .bubble-bottom-right .absolute top="15%" right="0%" style="max-width:400px;--bubcol: var(--bubcol-dred); font-size:1.8rem;"}
 
 
-# The pioneers of data visualization
+# Die frühen Rockstars der Datenvisualisierung
 
 ::: {.absolute top="90%" left="30%" width="400px" height="336px"}
 ![](img/avatar_cool.png)
@@ -81,8 +89,15 @@ Was sind die Ziele des Workshops?
 ::: footer
 :::
 
+## William Playfair (1759-1823) {.smaller}
 
-## John Snow and the Broad Street Pump
+![](img/playfair.png){height="500" fig-align="center"}
+
+::: {.aside}
+[erstellt: 1786]
+:::
+
+## John Snow (1813-1858) {.smaller}
 
 ::: {.columns}
 ::: {.column width=60%}
@@ -94,7 +109,19 @@ Was sind die Ziele des Workshops?
 :::
 :::
 
-## W.E.B. Du Bois
+::: {.aside}
+[erstellt: 1854]
+:::
+
+## Charles Joseph Minard (1781-1870) {.smaller}
+
+![](img/minard.png){fig-align="center"}
+
+::: {.aside}
+[erstellt: 1869]
+:::
+
+## W.E.B. Du Bois (1868-1963) {.smaller}
 
 ::: {.columns}
 ::: {.column}
@@ -106,20 +133,74 @@ Was sind die Ziele des Workshops?
 :::
 :::
 
-## Otto Neurath
+::: {.aside}
+[erstellt: 1890]
+:::
+
+## Otto Neurath (1882-1945) {.smaller}
 
 ![](img/neurath.png){height="500" fig-align="center"}
 
-## Charles Joseph Minard
-
-![](img/minard.png){fig-align="center"}
-
-## William Playfair
-
-![](img/playfair.png){height="500" fig-align="center"}
+::: {.aside}
+[erstellt: 1943]
+:::
 
 
-# Five guidelines for better visualization
+# Die Gestalt-Prinzipien
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_finger.png)
+:::
+
+::: footer
+:::
+
+## Welche Grafik ist zufällig und welche besitzt Struktur? {.medium}
+
+::: {.columns}
+::: {.column}
+![](img/random1.png)
+:::
+::: {.column}
+![](img/random2.png)
+:::
+:::
+
+## Was sind die Gestalt-Prinzipien? {.smaller}
+
+Die Gestalt-Prinzipien bieten einen psychologischen Ansatz dafür, wie das menschliche Gehirn visuelle Informationen wahrnimmt und ordnet, indem ähnliche Elemente gruppiert, Muster erkannt und komplexe Bilder vereinfacht werden.
+
+![](img/gestalt_header2.png){height="250" fig-align="center"}
+
+Ein Gemälde erscheint und als Bild und nicht als einzelne Pinselstriche. Menschen greifen bei der Verarbeitung von Informationen auf Erfahrungen zurück.
+
+::: {.aside}
+Quelle: @healy:2018
+:::
+
+## Ausgewählte Prinzipien {.smaller}
+
+- [Nähe]{.hl .hl-dred .secfont} Räumliche Nähe kann Elemente als Teil einer Einheit wirken lassen.
+- [Ähnlichkeit]{.hl .hl-blue .secfont} Ähnliche Element werden als zusammengehörig wahrgenommen.
+- [Verbundenheit]{.hl .hl-dred .secfont} Miteinander verbundene Elemente werden als eine Einheit wahrgenommen.
+- [Kontinuität]{.hl .hl-blue .secfont} Das Gehirn erkennt sinnvolle Fortsetzungen.
+- [Geschlossenheit]{.hl .hl-dred .secfont} Das Auge nimmt eine vollendete Form wahr, selbst wenn Teile der Form fehlen oder unvollständig sind.
+- [Gemeinsames Schicksal]{.hl .hl-blue .secfont} Objekte werden als Teil einer Gruppe wahrgenommen, wenn sie auf derselben Bahn platziert sind.
+
+::: {.aside}
+Quelle: @healy:2018
+:::
+
+## Unser Gehirn sucht nach Struktur {.medium}
+
+![](img/gestalt.png){fig-align="center" height=500}
+
+::: {.aside}
+Quelle: @healy:2018
+:::
+
+
+# Fünf Prinzipien für bessere Visualisierungen
 
 ::: {.absolute top="90%" left="30%" width="400px" height="336px"}
 ![](img/avatar_laptop.png)
@@ -128,11 +209,11 @@ Was sind die Ziele des Workshops?
 ::: footer
 :::
 
-## 1. Choose the adequate type of graph {.medium}
+## 1. Wähle eine adequate Darstellungsform {.medium}
 
 ::: {.columns}
 ::: {.column width=30%}
-[Bad:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
 <div style= "float:right;position:relative;vertical-align:top;">
 ```{r}
 #| echo: false
@@ -159,7 +240,7 @@ plot.title.position = "plot")
 ```
 </div>
 <br><br><br><br><br><br><br>
-[Good:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
 <div style= "float:right;position:relative;vertical-align:top;">
 ```{r}
 #| echo: false
@@ -179,39 +260,116 @@ panel.grid.minor.y = element_blank())
 </div>
 :::
 ::: {.column width=70%}
-- Choose a chart type with respect to your data (numeric, categorical, ranking, time series etc.)
-- What would you like to show: comparison, distribution, composition, relationship?
-- To help you find the adequate type from a myriad of alternatives, you can also take a look at [https://www.data-to-viz.com](https://www.data-to-viz.com) and [https://datavizproject.com](https://datavizproject.com)
+- Wähle den Grafik-Typ anhand der abzubildenden Daten: Welches Skalenniveau haben die Daten?
+- Was soll abgebildet werden: Vergleich, Verteilung, Zusammensetzung, Beziehung?
+- Um den passenden Grafik-Typ aus einer Vielzahl unterschiedlicher Arten zu finden, helfen Hompages wie [https://www.data-to-viz.com](https://www.data-to-viz.com) oder [https://datavizproject.com](https://datavizproject.com)
 :::
 :::
 
-## A simple decision tree of chart types {.medium}
+## Ein einfacher Entscheidungsbaum von Darstellungsformen {.medium}
 
 ![](img/charttypes.webp){fig-align="center" height="530"}
 
+## Welches Chart beschreibt die Geschichte am besten? {.medium}
 
-## 2. Visualize data accurately and faithfully {.medium}
+::: {.columns}
+::: {.column}
+```{r abs}
+#| echo: false
+#| fig-height: 2.9
+library(tidyverse)
+library(MetBrewer)
+library(scales)
+load("data/gdp.RData")
+
+gdp |> filter(unit == "Chain linked volumes (2010), euro per capita") |> 
+  ggplot(aes(x = time, y = values, group = geo, color = geo)) +
+  geom_line(size = 1) +
+  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
+  scale_y_continuous(labels = scales::number_format(prefix = "€", big.mark = ",")) +
+  labs(x = NULL, y = NULL,  title = "GDP per capita in €") +
+  theme_minimal() +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "bottom")
+```
+
+```{r rates}
+#| echo: false
+#| fig-height: 2.9
+gdp |> filter(str_detect(unit, "percentage")) |> 
+  ggplot(aes(x = time, y = values, group = geo, color = geo)) +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 0.2) +
+  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  labs(x = NULL, y = NULL, title = "Growth rates of per capita GDP") +
+  theme_minimal() +
+  theme(panel.grid.minor.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        legend.position = "bottom")
+```
+
+:::
+::: {.column .fragment}
+```{r base}
+#| echo: false
+#| fig-height: 2.9
+gdp |> filter(unit == "Chain linked volumes (2010), euro per capita") |> 
+  mutate(base = values / values[time == 2000] * 100, .by = geo) |> 
+  ggplot(aes(x = time, y = base, group = geo, color = geo)) +
+  geom_hline(yintercept = 100, color = "black", size = 0.5) +
+  geom_line(size = 0.8) +
+  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
+  labs(x = NULL, y = NULL, title = "GDP per capita with anchor (2000 = 100)") +
+  theme_minimal() +
+  theme(panel.grid.minor.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        legend.position = "bottom")
+```
+```{r bars}
+#| echo: false
+#| fig-height: 2.9
+gdp |> filter(str_detect(unit, "percentage")) |> 
+  ggplot(aes(x = time, y = values, fill = geo)) + 
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  facet_wrap(~geo, ncol = 5) +
+  scale_fill_manual(values = met.brewer("Juarez")) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  scale_x_reverse() +
+  labs(x = NULL, y = NULL, title = "GDP growth rates from 2000 to 2021") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 7),
+        panel.border = element_rect(size = 0.1, fill = "transparent"),
+        panel.grid.minor = element_blank(),
+        plot.title.position = "plot")
+```
+:::
+:::
+
+## 2. Visualisiere die Daten sorgfältig und gewissenhaft {.medium}
 
 ::: {.columns}
 ::: {.column width=30%}
-[Bad:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
 ![](img/princ2a.png){height=230 style="vertical-align:top;"}
 <br>
-[Good:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
 ![](img/princ2b.png){height=230 style="vertical-align:top;"}
 :::
 ::: {.column width=70%}
-- Prioritize data accuracy, clarity, and integrity
-- Avoid misleading the reader by truncating the y-axis, using two different y-axis, cherry-picking data, not providing context, etc.
-- A good story based on data visualization does not involve deceptive manipulation of the data!
+- Lege Priorität auf Genauigkeit, Klarheit und Integrität
+- Vermeide irreführende Praktiken wie Abschneiden von Achsen, Verwenden sekundärer Achsen, unlautere Auswahl von Daten, mangelnde Kontextualisierung, etc.
+- Eine gute Datenvisualisierung verzichtet auf irreführende Manipulation der Daten oder von einzelnen Grafikelementen!
 :::
 :::
 
 ::: {.aside}
-Source: @dougherty:2021
+Quelle: @dougherty:2021
 :::
 
-## Example {.medium}
+## Beispiel {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -223,10 +381,10 @@ Source: @dougherty:2021
 :::
 
 ::: {.aside}
-Source: [Patient](https://patient.info/news-and-features/whats-the-average-height-for-men)
+Quelle: [Patient](https://patient.info/news-and-features/whats-the-average-height-for-men)
 :::
 
-## Another example {.medium}
+## Noch ein Beispiel {.medium}
 
 ::: {.columns}
 ::: {.column width=50%}
@@ -238,7 +396,7 @@ Source: [Patient](https://patient.info/news-and-features/whats-the-average-heigh
 :::
 :::
 
-## A third example {.medium}
+## Und noch ein drittes Beispiel {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -250,32 +408,32 @@ Source: [Patient](https://patient.info/news-and-features/whats-the-average-heigh
 :::
 
 ::: {.aside}
-Source: [The Correspondent](https://thecorrespondent.com/664/how-maps-in-the-media-make-us-more-negative-about-migrants/738023272448-bac255ba)
+Quelle: [The Correspondent](https://thecorrespondent.com/664/how-maps-in-the-media-make-us-more-negative-about-migrants/738023272448-bac255ba)
 :::
 
-## 3. Integrate graphics and text {.medium}
+## 3. Integriere Text sinnvoll in die Grafik {.medium}
 
 ::: {.columns}
 ::: {.column width=30%}
-[Bad:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
 ![](img/princ3a.png){height=250 style="vertical-align:top;"}
 <br>
-[Good:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
 ![](img/princ3b.png){style="vertical-align:top;"}
 :::
 ::: {.column width=70%}
-- Don't make people turn their head to read labels
-- Think about a logical order of the chart (alphabetical, values)
-- Add direct labels rather than a legend
-- Choose a meaningful title that focuses on your message
+- Vermeide, dass Leser:innen ihren Kopf drehen müssen um die Bezeichnungen zu lesen
+- Überlege eine logische Reihung der Grafik (alphabetisch, nach Werten, etc.)
+- Direkte Bezeichnung ist besser als eine Legende
+- Wähle sinnvolle Titel, die auf die Botschaft fokussieren
 :::
 :::
 
 ::: {.aside}
-Source: @dougherty:2021
+Quelle: @dougherty:2021
 :::
 
-## Best practice {.medium}
+## Musterbeispiel {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -287,33 +445,33 @@ Source: @dougherty:2021
 :::
 
 ::: {.aside}
-Sources: [Washington Post](https://www.washingtonpost.com/business/2019/06/06/why-crowded-meetings-conference-rooms-make-you-so-so-tired/), [chezVoila](https://twitter.com/chezVoila/status/1136631524919513088?s=20)
+Quelle: [Washington Post](https://www.washingtonpost.com/business/2019/06/06/why-crowded-meetings-conference-rooms-make-you-so-so-tired/), [chezVoila](https://twitter.com/chezVoila/status/1136631524919513088?s=20)
 :::
 
 
-## 4. Reduce the clutter {.medium}
+## 4. Reduziere Ablenkungen {.medium}
 
 ::: {.columns}
 ::: {.column width=30%}
-[Bad:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
 ![](img/principle4a.png){height=230 style="vertical-align:top;"}
 <br>
-[Good:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
 ![](img/principle4b.png){height=230 style="vertical-align:top;"}
 :::
 ::: {.column width=70%}
-- Unnecessary visual elements distract the readers from the central data
-- Avoid elements that do not contain information!
-- Basic elements like heavy tick marks or gridlines should be removed
-- Think carefully which visual elements are really needed to read the chart
+- Unnötige visuelle Elemente lenken die Aufmerksamkeit weg von den wichtigen Daten
+- Vermeide grafische Elemente, die keine Information transportieren
+- Bestandteile wie etwa Achsen-Teilstriche oder Gitternetzlinien sollten entfernt oder zumindest reduziert werden
+- Überlege sorgsam, welche visuellen Elemente wirklich nötig für das Lesen der Grafik sind
 :::
 :::
 
 ::: {.aside}
-Source: @dougherty:2021
+Quelle: @dougherty:2021
 :::
 
-## Best practice {.medium}
+## Musterbeispiel {.medium}
 
 
 ::: {.columns}
@@ -364,15 +522,15 @@ plot.title.position = "plot")
 :::
 
 ::: {.aside}
-Sources: [BlueGranite](https://www.bluegranite.com/blog/data-visualization-remove-chart-clutter-and-focus-on-the-insights)
+Quellen: [BlueGranite](https://www.bluegranite.com/blog/data-visualization-remove-chart-clutter-and-focus-on-the-insights)
 :::
 
 
-## 5. Avoid the spaghetti chart and start with gray {.medium}
+## 5. Vermeide die Spaghetti-Grafik und starte in Grautönen {.medium}
 
 ::: {.columns}
 ::: {.column width=30%}
-[Bad:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
 <div style= "float:right;position:relative;vertical-align:top;">
 ```{r}
 #| echo: false
@@ -392,7 +550,7 @@ simdat |>
 ```
 </div>
 <br><br><br><br><br><br><br>
-[Good:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
 <div style= "float:right;position:relative;vertical-align:top;">
 ```{r}
 #| echo: false
@@ -414,14 +572,14 @@ simdat |>
 </div>
 :::
 ::: {.column width=70%}
-- When the graph contains too much information, it looks like spaghetti
-- Try to break overloaded single charts into smaller parts (facets, small multiples) or highlight the relevant information
-- Start with gray: you are forced to be strategic in the use of color, labels, etc.
+- Wenn die Grafik zu viel Information transportiert, sieht sie aus wie Spaghetti
+- Versuche überladene Grafiken in kleinere Bestandteile aufzuteilen (Facets, small multiples) oder hebe die relevante Information hervor
+- Beginne mit Grautönen: das erfordert den strategischen Einsatz von Farben, Labels, etc.
 :::
 :::
 
 
-## Best practice {.medium}
+## Musterbeispiel {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -433,140 +591,20 @@ simdat |>
 :::
 
 ::: {.aside}
-Source: @schwabish:2014
+Quelle: @schwabish:2014
 :::
 
-# The Gestalt Principles
+
+# Sind irreführende Grafiken wirklich wirkungsvoll?
 
 ::: {.absolute top="90%" left="30%" width="400px" height="336px"}
-![](img/avatar_finger.png)
+![](img/avatar_shrug.png)
 :::
 
 ::: footer
 :::
 
-## What are the Gestalt Principles? {.smaller}
-
-Gestalt Principles describe how humans group similar elements, recognize patterns and simplify complex images. "Gestalt" is German for "unified whole". 
-
-![](img/gestalt_header2.png){height="250" fig-align="center"}
-
-The question is how humans typically gain meaningful perceptions from the chaotic stimuli around them. The idea is that the mind "informs" what the eye sees by perceiving a series of individual elements as a whole.
-
-## Which chart is random and which has structure in it? {.medium}
-
-::: {.columns}
-::: {.column}
-![](img/random1.png)
-:::
-::: {.column}
-![](img/random2.png)
-:::
-:::
-
-::: {.aside}
-Source: @healy:2018
-:::
-
-## Gestalt rules {.smaller}
-
-- [Proximity]{.hl .hl-dred .secfont} Things that are spatially near to one another seem to be related.
-- [Similarity]{.hl .hl-blue .secfont} Things that look alike seem to be related.
-- [Connection]{.hl .hl-dred .secfont} Things that are visually tied to one another seem to be related.
-- [Continuity]{.hl .hl-blue .secfont} Partially hidden objects are completed into familiar shapes.
-- [Closure]{.hl .hl-dred .secfont} Incomplete shapes are perceived as complete.
-- [Figure and Ground]{.hl .hl-blue .secfont} Visual elements are taken to be either in the foreground or the background.
-- [Common Fate]{.hl .hl-dred .secfont} Elements sharing a direction of movement are perceived as a unit.
-
-::: {.aside}
-Source: @healy:2018
-:::
-
-## Our brains look for structure {.medium}
-
-![](img/gestalt.png){fig-align="center" height=500}
-
-::: {.aside}
-Source: @healy:2018
-:::
-
-## Which chart describes best what you want to show? {.medium}
-
-::: {.columns}
-::: {.column}
-```{r abs}
-#| echo: false
-#| fig-height: 2.9
-library(tidyverse)
-library(MetBrewer)
-library(scales)
-load("data/gdp.RData")
-
-gdp |> filter(unit == "Chain linked volumes (2010), euro per capita") |> 
-  ggplot(aes(x = time, y = values, group = geo, color = geo)) +
-  geom_line(size = 1) +
-  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
-  scale_y_continuous(labels = scales::number_format(prefix = "€", big.mark = ",")) +
-  labs(x = NULL, y = NULL,  title = "GDP per capita in €") +
-  theme_minimal() +
-  theme(panel.grid.minor = element_blank(),
-        legend.position = "bottom")
-```
-
-```{r rates}
-#| echo: false
-#| fig-height: 2.9
-gdp |> filter(str_detect(unit, "percentage")) |> 
-  ggplot(aes(x = time, y = values, group = geo, color = geo)) +
-  geom_line(linewidth = 0.8) +
-  geom_point(size = 0.2) +
-  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
-  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
-  labs(x = NULL, y = NULL, title = "Growth rates of per capita GDP") +
-  theme_minimal() +
-  theme(panel.grid.major.x = element_blank(),
-        panel.grid.minor.y = element_blank(),
-        legend.position = "bottom")
-```
-
-:::
-::: {.column .fragment}
-```{r base}
-#| echo: false
-#| fig-height: 2.9
-gdp |> filter(unit == "Chain linked volumes (2010), euro per capita") |> 
-  mutate(base = values / values[time == 2000] * 100, .by = geo) |> 
-  ggplot(aes(x = time, y = base, group = geo, color = geo)) +
-  geom_hline(yintercept = 100, color = "black", size = 0.5) +
-  geom_line(size = 0.8) +
-  scale_color_manual(name = NULL, values = met.brewer("Juarez")) +
-  labs(x = NULL, y = NULL, title = "GDP per capita with anchor (2000 = 100)") +
-  theme_minimal() +
-  theme(legend.position = "bottom")
-```
-```{r bars}
-#| echo: false
-#| fig-height: 2.9
-gdp |> filter(str_detect(unit, "percentage")) |> 
-  ggplot(aes(x = time, y = values, fill = geo)) + 
-  geom_bar(stat = "identity") +
-  coord_flip() +
-  facet_wrap(~geo, ncol = 5) +
-  scale_fill_manual(values = met.brewer("Juarez")) +
-  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
-  scale_x_reverse() +
-  labs(x = NULL, y = NULL, title = "GDP growth rates from 2000 to 2021") +
-  theme_minimal() +
-  theme(legend.position = "none",
-        axis.text.x = element_text(size = 7),
-        panel.border = element_rect(size = 0.1, fill = "transparent"),
-        panel.grid.minor = element_blank(),
-        plot.title.position = "plot")
-```
-:::
-:::
-
-## Irreführende Grafiken erfüllen ihren Zweck {.medium}
+## Irreführende Grafiken {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -581,7 +619,7 @@ gdp |> filter(str_detect(unit, "percentage")) |>
 Quelle: @lauer:2020
 :::
 
-## Irreführende Grafiken erfüllen ihren Zweck {.medium}
+## Irreführende Grafiken {.medium}
 
 ::: {.columns}
 ::: {.column}
@@ -596,8 +634,7 @@ Quelle: @lauer:2020
 Quelle: @lauer:2020
 :::
 
-
-## Irreführende Grafiken erfüllen ihren Zweck {.medium}
+## Irreführende Titel {.medium}
 
 ![](img/deceptive_title.png)
 
@@ -611,6 +648,229 @@ Quelle: @lauer:2020
 
 ::: {.aside}
 Quelle: @lauer:2020
+:::
+
+# 15 schnelle Tipps
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_point.png)
+:::
+
+::: footer
+:::
+
+## Labels einfach lesbar machen {.medium}
+
+![](img/tipp_horizontal_label.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Text sinnvoll in der Grafik einsetzen {.medium}
+
+![](img/tipp_better_annotation.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Einheitliche Textgröße verwenden {.medium}
+
+![](img/tipp_same_font_size.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Zahlen sinnvoll formatieren und runden {.medium}
+
+![](img/tipp_number_format.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Skala nahe an den Daten {.medium}
+
+![](img/tipp_label_near_data.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Hauptbotschaft im Titel, technische Details in die Notiz {.medium}
+
+![](img/tipp_catchy_title.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Farben nur wenn notwendig {.medium}
+
+![](img/tipp_no_color.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/10-ways-to-use-fewer-colors-in-your-data-visualizations/)
+:::
+
+## Wenn möglich, direkte Labels statt Legende {.medium}
+
+![](img/tipp_no_legend.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/text-in-data-visualizations/)
+:::
+
+## Achte auf das Skalenniveau der Legende {.medium}
+
+![](img/tipp_legend_scale.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/classed-vs-unclassed-color-scales/)
+:::
+
+## Passe die Farbpalette an die Daten an {.medium}
+
+![](img/tipp_color_scale.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/which-color-scale-to-use-in-data-vis/)
+:::
+
+## Einheitliches Farbkonzept durchziehen {.medium}
+
+![](img/tipp_color_concept.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/colors/)
+:::
+
+## Zu komplexe Legende vermeiden {.medium}
+
+![](img/tipp_no_spaghetti_bar.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/10-ways-to-use-fewer-colors-in-your-data-visualizations/)
+:::
+
+## Ändere notfalls den Grafiktyp {.medium}
+
+![](img/tipp_chart_type.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/10-ways-to-use-fewer-colors-in-your-data-visualizations/)
+:::
+
+## "Small multiples" statt Spaghetti {.medium}
+
+![](img/tipp_small_multiples.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/10-ways-to-use-fewer-colors-in-your-data-visualizations/)
+:::
+
+## Kleine Kategorien zusammenführen {.medium}
+
+![](img/tipp_summarise_categories.png)
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/10-ways-to-use-fewer-colors-in-your-data-visualizations/)
+:::
+
+# Best practice
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_read.png)
+:::
+
+::: footer
+:::
+
+## Text und Schriftarten {.medium}
+
+::: {.columns style="text-align:center;"}
+::: {.column}
+![Economist](img/economist.png){width="450" style="border:0.5px solid;"}
+<br>
+![New York Times](img/nyt.png){width="450" style="border:0.5px solid;"}
+<br>
+![Politico](img/politico.png){width="450" style="border:0.5px solid;"}
+:::
+::: {.column}
+![Guardian](img/guardian.png){width="450" style="border:0.5px solid;"}
+<br>
+![Spiegel](img/spiegel.png){width="450" style="border:0.5px solid;"}
+<br>
+![Fivethirtyeight](img/538.png){width="450" style="border:0.5px solid;"}
+:::
+:::
+
+::: {.aside}
+Quelle: [Datawrapper](https://blog.datawrapper.de/fonts-for-data-visualization/)
+:::
+
+## Grafikbeschriftung {.medium}
+
+![](img/labels_nyt.png)
+
+::: {.aside}
+Quelle: [New York Times](https://www.nytimes.com/interactive/2018/03/30/upshot/crime-immigration-myth.html)
+:::
+
+## Unzählige Möglichkeiten für Grafikbeschriftung
+
+![](img/best_prac_labels.png){height="500" fig-align="center"}
+
+## Farbgebung {.medium}
+
+![](img/color_nyt.png)
+
+::: {.aside}
+Quelle: [New York Times](https://www.nytimes.com/interactive/2022/02/01/science/covid-deaths-united-states.html)
+:::
+
+## Grau ist (fast) die wichtigste Farbe
+
+![](img/best_prac_colors.png){height="500" fig-align="center"}
+
+## Small multiples {.medium}
+
+![](img/best_prac_multiples.jpeg){height="500" fig-align="center"}
+
+# Quellen für Inspiration
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_break.png)
+:::
+
+::: footer
+:::
+
+## Wo gibt es Ideen für Visualisierungen? {.medium}
+
+- Manche internationale Zeitungen haben Grafik-Portale, z.B. [Economist](https://www.economist.com/graphic-detail), [Wall Street Journal](https://graphics.wsj.com), [Guardian](https://www.theguardian.com/interactive), etc. 
+- Die [#tidytuesday](https://twitter.com/search?q=%23tidytuesday) Gemeinschaft ist eine wöchentliche Grafik-Challenge auf Twitter. Es gibt auch andere Events wie die [#30DayChartChallenge](https://twitter.com/30DayChartChall) im April 2023.
+- Folgt der R-Community auf Twitter für Inspiration, z.B. [Cédric Scherer](https://twitter.com/CedScherer), [Georios Karamanis](https://twitter.com/geokaramanis), [Tanya Shapiro](https://twitter.com/tanya_shapiro), u.v.m.
+- Der ["Information is beautiful" Award](https://www.informationisbeautifulawards.com/showcase?action=index&award=2022&controller=showcase&page=1&pcategory=short-list&type=awards) ist der bekannteste Preis für Informationsgrafiken.
+- [Datawrapper River](https://app.datawrapper.de/river) ist eine Plattform für den Austausch von Infografiken, die mit Datawrapper erstellt werden.
+
+##  Es gibt mehr als nur Balken- und Kreisdiagramme {.medium}
+
+
+::: {.columns .center style="font-size:1.3rem;"}
+::: {.column}
+![](img/alt_stream.png){height="520"}
+:::
+::: {.column}
+::: {.fragment}
+![](img/alt_waffle.png){height="250"}
+:::
+::: {.fragment}
+![](img/alt_map.png){height="250"}
+:::
+:::
 :::
 
 ## Weiterführende Literatur 
@@ -634,7 +894,7 @@ Quelle: @lauer:2020
 : {tbl-colwidths="[15,85]"}
 :::
 
-## Bibliography {.bibstyle}
+## Verwendete Literatur {.bibstyle}
 
 :::footer
 :::

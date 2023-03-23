@@ -4,7 +4,7 @@ instructor:
   name: Dr. Matthias Schnetzer
   name-wo-title: Matthias Schnetzer
   employer: "Arbeiterkammer Wien & WU Vienna"
-  email: mschnetz@akwien.at
+  email: matthias.schnetzer@akwien.at
   url: "https://mschnetzer.github.io"
   twitter: matschnetzer
   github: mschnetzer
@@ -12,8 +12,8 @@ instructor:
 course:
   title: Workshop Datenvisualisierung
   subtitle: "Schöner Visualisieren"
-  date: "20. März 2023"
-  location: "Momentum Institut"
+  date: "31. März 2023"
+  location: "Österreichisches Patentamt"
   icon: fa-chart-column
   icon-bg: fa-comment
   url: "https://mschnetzer.github.io/intro-to-dataviz"

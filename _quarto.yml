@@ -5,14 +5,14 @@ format:
   html:
     theme: 
       - litera
-      - layout/css/adveconpol.scss
+      - dataviz.scss
 
-bibliography: data/lit/wipol_advanced.bib
-csl: data/lit/wipol.csl
+bibliography: data/dataviz.bib
+csl: data/dataviz.csl
 
 website:
-  title: "PI 5620 Advanced Economic Policy"
-  site-url: "https://mschnetzer.github.io/adveconpol/"
+  title: "Schöner Visualisieren"
+  site-url: "https://mschnetzer.github.io/intro-to-dataviz/"
   
   navbar:
     pinned: true
