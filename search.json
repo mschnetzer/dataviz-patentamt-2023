@@ -1,0 +1,401 @@
+[
+  {
+    "objectID": "index.html#über-mich",
+    "href": "index.html#über-mich",
+    "title": "Schöner Visualisieren",
+    "section": "Über mich",
+    "text": "Über mich\n\n\n\n\n\n Matthias Schnetzer\n Arbeiterkammer Wien & WU Wien\n matthias.schnetzer@akwien.at\n https://mschnetzer.github.io\n matschnetzer\n\n\n\n Ich bin kein ausgebildeter Grafiker sondern Autodidakt.\n Eine Auswahl meiner Grafiken ist unter https://mschnetzer.github.io/portfolio/"
+  },
+  {
+    "objectID": "index.html#über-diesen-workshop",
+    "href": "index.html#über-diesen-workshop",
+    "title": "Schöner Visualisieren",
+    "section": "Über diesen Workshop",
+    "text": "Über diesen Workshop\n\n“Ein Bild sagt mehr als Tausend Worte”\n\nMit der stetig verbesserten Datenverfügbarkeit ist die Nachfrage nach Datenvisualisierung enorm gestiegen. Mit gängiger Software ist eine Grafik heute rasch erstellt. Aber es gilt einige Grundregeln für erfolgreiche Datenvisualisierung zu beachten.\nWas sind die Ziele des Workshops?\n\nKenntnis der wichtigsten Prinzipien der Datenvisualisierung\nInspiration aus einer Vielzahl unterschiedlicher Grafiktypen\nErfahrungen aus best practice Beispielen"
+  },
+  {
+    "objectID": "index.html#was-sind-eure-erwartungen",
+    "href": "index.html#was-sind-eure-erwartungen",
+    "title": "Schöner Visualisieren",
+    "section": "Was sind eure Erwartungen?",
+    "text": "Was sind eure Erwartungen?\n   \nHabt ihr spezielle Erwartungen oder Wünsche für diesen Workshop?"
+  },
+  {
+    "objectID": "index.html#william-playfair-1759-1823",
+    "href": "index.html#william-playfair-1759-1823",
+    "title": "Schöner Visualisieren",
+    "section": "William Playfair (1759-1823)",
+    "text": "William Playfair (1759-1823)\n\n\n\n\n\n\n\n[erstellt: 1786]"
+  },
+  {
+    "objectID": "index.html#john-snow-1813-1858",
+    "href": "index.html#john-snow-1813-1858",
+    "title": "Schöner Visualisieren",
+    "section": "John Snow (1813-1858)",
+    "text": "John Snow (1813-1858)\n\n\n\n\n\n\n\n\n\n[erstellt: 1854]"
+  },
+  {
+    "objectID": "index.html#charles-joseph-minard-1781-1870",
+    "href": "index.html#charles-joseph-minard-1781-1870",
+    "title": "Schöner Visualisieren",
+    "section": "Charles Joseph Minard (1781-1870)",
+    "text": "Charles Joseph Minard (1781-1870)\n\n\n\n\n\n\n\n[erstellt: 1869]"
+  },
+  {
+    "objectID": "index.html#w.e.b.-du-bois-1868-1963",
+    "href": "index.html#w.e.b.-du-bois-1868-1963",
+    "title": "Schöner Visualisieren",
+    "section": "W.E.B. Du Bois (1868-1963)",
+    "text": "W.E.B. Du Bois (1868-1963)\n\n\n\n\n\n\n\n\n\n[erstellt: 1890]"
+  },
+  {
+    "objectID": "index.html#otto-neurath-1882-1945",
+    "href": "index.html#otto-neurath-1882-1945",
+    "title": "Schöner Visualisieren",
+    "section": "Otto Neurath (1882-1945)",
+    "text": "Otto Neurath (1882-1945)\n\n\n\n\n\n\n\n[erstellt: 1943]"
+  },
+  {
+    "objectID": "index.html#welche-grafik-ist-zufällig-und-welche-besitzt-struktur",
+    "href": "index.html#welche-grafik-ist-zufällig-und-welche-besitzt-struktur",
+    "title": "Schöner Visualisieren",
+    "section": "Welche Grafik ist zufällig und welche besitzt Struktur?",
+    "text": "Welche Grafik ist zufällig und welche besitzt Struktur?"
+  },
+  {
+    "objectID": "index.html#was-sind-die-gestalt-prinzipien",
+    "href": "index.html#was-sind-die-gestalt-prinzipien",
+    "title": "Schöner Visualisieren",
+    "section": "Was sind die Gestalt-Prinzipien?",
+    "text": "Was sind die Gestalt-Prinzipien?\nDie Gestalt-Prinzipien bieten einen psychologischen Ansatz dafür, wie das menschliche Gehirn visuelle Informationen wahrnimmt und ordnet, indem ähnliche Elemente gruppiert, Muster erkannt und komplexe Bilder vereinfacht werden.\n\n\n\n\n\nGestaltpsychologie entwickelte sich in den 1920er Jahren zu einer eigenständigen Theorie und untersucht die kognitiven Mechanismen, Phänomäne wahrzunehmen und einzuordnen."
+  },
+  {
+    "objectID": "index.html#ausgewählte-prinzipien",
+    "href": "index.html#ausgewählte-prinzipien",
+    "title": "Schöner Visualisieren",
+    "section": "Ausgewählte Prinzipien",
+    "text": "Ausgewählte Prinzipien\n\nNähe Räumliche Nähe kann Elemente als Teil einer Einheit wirken lassen.\nÄhnlichkeit Ähnliche Element werden als zusammengehörig wahrgenommen.\nVerbundenheit Miteinander verbundene Elemente werden als eine Einheit wahrgenommen.\nKontinuität Das Gehirn erkennt sinnvolle Fortsetzungen.\nGeschlossenheit Das Auge nimmt eine vollendete Form wahr, selbst wenn Teile der Form fehlen oder unvollständig sind.\nGemeinsames Schicksal Objekte werden als Teil einer Gruppe wahrgenommen, wenn sie auf derselben Bahn platziert sind.\n\n\n\nQuelle: Healy (2018)"
+  },
+  {
+    "objectID": "index.html#gestaltpsychologie-in-der-datenvisualisierung",
+    "href": "index.html#gestaltpsychologie-in-der-datenvisualisierung",
+    "title": "Schöner Visualisieren",
+    "section": "Gestaltpsychologie in der Datenvisualisierung",
+    "text": "Gestaltpsychologie in der Datenvisualisierung\n\n\n\n\n\n\n\nQuelle: Healy (2018)"
+  },
+  {
+    "objectID": "index.html#wähle-eine-adequate-darstellungsform",
+    "href": "index.html#wähle-eine-adequate-darstellungsform",
+    "title": "Schöner Visualisieren",
+    "section": "1. Wähle eine adequate Darstellungsform",
+    "text": "1. Wähle eine adequate Darstellungsform\n\n\nNein:\n\n\n\n\n\n OK:\n\n\n\n\n\n\n\nWähle den Grafik-Typ anhand der abzubildenden Daten: Welches Skalenniveau haben die Daten?\nWas soll abgebildet werden: Vergleich, Verteilung, Zusammensetzung, Beziehung?\nUm den passenden Grafik-Typ aus einer Vielzahl unterschiedlicher Arten zu finden, helfen Hompages wie https://www.data-to-viz.com oder https://datavizproject.com"
+  },
+  {
+    "objectID": "index.html#ein-einfacher-entscheidungsbaum-von-darstellungsformen",
+    "href": "index.html#ein-einfacher-entscheidungsbaum-von-darstellungsformen",
+    "title": "Schöner Visualisieren",
+    "section": "Ein einfacher Entscheidungsbaum von Darstellungsformen",
+    "text": "Ein einfacher Entscheidungsbaum von Darstellungsformen"
+  },
+  {
+    "objectID": "index.html#welche-grafik-beschreibt-die-aussage-am-klarsten",
+    "href": "index.html#welche-grafik-beschreibt-die-aussage-am-klarsten",
+    "title": "Schöner Visualisieren",
+    "section": "Welche Grafik beschreibt die Aussage am klarsten?",
+    "text": "Welche Grafik beschreibt die Aussage am klarsten?"
+  },
+  {
+    "objectID": "index.html#visualisiere-die-daten-sorgfältig-und-gewissenhaft",
+    "href": "index.html#visualisiere-die-daten-sorgfältig-und-gewissenhaft",
+    "title": "Schöner Visualisieren",
+    "section": "2. Visualisiere die Daten sorgfältig und gewissenhaft",
+    "text": "2. Visualisiere die Daten sorgfältig und gewissenhaft\n\n\nNein:   OK: \n\n\nLege Priorität auf Genauigkeit, Klarheit und Integrität\nVermeide irreführende Praktiken wie Abschneiden von Achsen, Verwenden sekundärer Achsen, unlautere Auswahl von Daten, mangelnde Kontextualisierung, etc.\nEine gute Datenvisualisierung verzichtet auf irreführende Manipulation der Daten oder von einzelnen Grafikelementen!\n\n\n\n\n\nQuelle: Dougherty/Ilyankou (2021)"
+  },
+  {
+    "objectID": "index.html#beispiel",
+    "href": "index.html#beispiel",
+    "title": "Schöner Visualisieren",
+    "section": "Beispiel",
+    "text": "Beispiel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: Patient"
+  },
+  {
+    "objectID": "index.html#noch-ein-beispiel",
+    "href": "index.html#noch-ein-beispiel",
+    "title": "Schöner Visualisieren",
+    "section": "Noch ein Beispiel",
+    "text": "Noch ein Beispiel"
+  },
+  {
+    "objectID": "index.html#und-noch-ein-drittes-beispiel",
+    "href": "index.html#und-noch-ein-drittes-beispiel",
+    "title": "Schöner Visualisieren",
+    "section": "Und noch ein drittes Beispiel",
+    "text": "Und noch ein drittes Beispiel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: The Correspondent"
+  },
+  {
+    "objectID": "index.html#integriere-text-sinnvoll-in-die-grafik",
+    "href": "index.html#integriere-text-sinnvoll-in-die-grafik",
+    "title": "Schöner Visualisieren",
+    "section": "3. Integriere Text sinnvoll in die Grafik",
+    "text": "3. Integriere Text sinnvoll in die Grafik\n\n\nNein:   OK: \n\n\nVermeide, dass Leser:innen ihren Kopf drehen müssen um die Bezeichnungen zu lesen\nÜberlege eine logische Reihung der Grafik (alphabetisch, nach Werten, etc.)\nDirekte Bezeichnung ist besser als eine Legende\nWähle sinnvolle Titel, die auf die Botschaft fokussieren\n\n\n\n\n\nQuelle: Dougherty/Ilyankou (2021)"
+  },
+  {
+    "objectID": "index.html#musterbeispiel",
+    "href": "index.html#musterbeispiel",
+    "title": "Schöner Visualisieren",
+    "section": "Musterbeispiel",
+    "text": "Musterbeispiel\n\n\n\n\n\n\n\n\n\nQuelle: Washington Post, chezVoila"
+  },
+  {
+    "objectID": "index.html#reduziere-ablenkungen",
+    "href": "index.html#reduziere-ablenkungen",
+    "title": "Schöner Visualisieren",
+    "section": "4. Reduziere Ablenkungen",
+    "text": "4. Reduziere Ablenkungen\n\n\nNein:   OK: \n\n\nUnnötige visuelle Elemente lenken die Aufmerksamkeit weg von den wichtigen Daten\nVermeide grafische Elemente, die keine Information transportieren\nBestandteile wie etwa Achsen-Teilstriche oder Gitternetzlinien sollten entfernt oder zumindest reduziert werden\nÜberlege sorgsam, welche visuellen Elemente wirklich nötig für das Lesen der Grafik sind\n\n\n\n\n\nQuelle: Dougherty/Ilyankou (2021)"
+  },
+  {
+    "objectID": "index.html#musterbeispiel-1",
+    "href": "index.html#musterbeispiel-1",
+    "title": "Schöner Visualisieren",
+    "section": "Musterbeispiel",
+    "text": "Musterbeispiel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuellen: BlueGranite"
+  },
+  {
+    "objectID": "index.html#vermeide-die-spaghetti-grafik-und-starte-in-grautönen",
+    "href": "index.html#vermeide-die-spaghetti-grafik-und-starte-in-grautönen",
+    "title": "Schöner Visualisieren",
+    "section": "5. Vermeide die Spaghetti-Grafik und starte in Grautönen",
+    "text": "5. Vermeide die Spaghetti-Grafik und starte in Grautönen\n\n\nNein:\n\n\n\n\n\n OK:\n\n\n\n\n\n\n\nWenn die Grafik zu viel Information transportiert, sieht sie aus wie Spaghetti\nVersuche überladene Grafiken in kleinere Bestandteile aufzuteilen (Facets, small multiples) oder hebe die relevante Information hervor\nBeginne mit Grautönen: das erfordert den strategischen Einsatz von Farben, Labels, etc."
+  },
+  {
+    "objectID": "index.html#musterbeispiel-2",
+    "href": "index.html#musterbeispiel-2",
+    "title": "Schöner Visualisieren",
+    "section": "Musterbeispiel",
+    "text": "Musterbeispiel\n\n\n\n\n\n\n\n\n\nQuelle: Schwabish (2014)"
+  },
+  {
+    "objectID": "index.html#irreführende-balkengrafik",
+    "href": "index.html#irreführende-balkengrafik",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Balkengrafik",
+    "text": "Irreführende Balkengrafik\n\n\n\n\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#irreführende-liniengrafike",
+    "href": "index.html#irreführende-liniengrafike",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Liniengrafike",
+    "text": "Irreführende Liniengrafike\n\n\n\n\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#irreführende-tortengrafiken",
+    "href": "index.html#irreführende-tortengrafiken",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Tortengrafiken",
+    "text": "Irreführende Tortengrafiken\n\n\n\n\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#irreführende-kreisgrafiken",
+    "href": "index.html#irreführende-kreisgrafiken",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Kreisgrafiken",
+    "text": "Irreführende Kreisgrafiken\n\n\n\n\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#irreführende-titel",
+    "href": "index.html#irreführende-titel",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Titel",
+    "text": "Irreführende Titel\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#irreführende-grafiken-erfüllen-ihren-zweck",
+    "href": "index.html#irreführende-grafiken-erfüllen-ihren-zweck",
+    "title": "Schöner Visualisieren",
+    "section": "Irreführende Grafiken erfüllen ihren Zweck",
+    "text": "Irreführende Grafiken erfüllen ihren Zweck\n\n\n\nQuelle: Lauer/OBrien (2020)"
+  },
+  {
+    "objectID": "index.html#labels-einfach-lesbar-machen",
+    "href": "index.html#labels-einfach-lesbar-machen",
+    "title": "Schöner Visualisieren",
+    "section": "Labels einfach lesbar machen",
+    "text": "Labels einfach lesbar machen\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#text-sinnvoll-in-der-grafik-einsetzen",
+    "href": "index.html#text-sinnvoll-in-der-grafik-einsetzen",
+    "title": "Schöner Visualisieren",
+    "section": "Text sinnvoll in der Grafik einsetzen",
+    "text": "Text sinnvoll in der Grafik einsetzen\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#einheitliche-textgröße-verwenden",
+    "href": "index.html#einheitliche-textgröße-verwenden",
+    "title": "Schöner Visualisieren",
+    "section": "Einheitliche Textgröße verwenden",
+    "text": "Einheitliche Textgröße verwenden\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#zahlen-sinnvoll-formatieren-und-runden",
+    "href": "index.html#zahlen-sinnvoll-formatieren-und-runden",
+    "title": "Schöner Visualisieren",
+    "section": "Zahlen sinnvoll formatieren und runden",
+    "text": "Zahlen sinnvoll formatieren und runden\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#skala-nahe-an-den-daten",
+    "href": "index.html#skala-nahe-an-den-daten",
+    "title": "Schöner Visualisieren",
+    "section": "Skala nahe an den Daten",
+    "text": "Skala nahe an den Daten\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#hauptbotschaft-im-titel-technische-details-in-die-notiz",
+    "href": "index.html#hauptbotschaft-im-titel-technische-details-in-die-notiz",
+    "title": "Schöner Visualisieren",
+    "section": "Hauptbotschaft im Titel, technische Details in die Notiz",
+    "text": "Hauptbotschaft im Titel, technische Details in die Notiz\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#farben-nur-wenn-notwendig",
+    "href": "index.html#farben-nur-wenn-notwendig",
+    "title": "Schöner Visualisieren",
+    "section": "Farben nur wenn notwendig",
+    "text": "Farben nur wenn notwendig\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#wenn-möglich-direkte-labels-statt-legende",
+    "href": "index.html#wenn-möglich-direkte-labels-statt-legende",
+    "title": "Schöner Visualisieren",
+    "section": "Wenn möglich, direkte Labels statt Legende",
+    "text": "Wenn möglich, direkte Labels statt Legende\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#achte-auf-das-skalenniveau-der-legende",
+    "href": "index.html#achte-auf-das-skalenniveau-der-legende",
+    "title": "Schöner Visualisieren",
+    "section": "Achte auf das Skalenniveau der Legende",
+    "text": "Achte auf das Skalenniveau der Legende\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#passe-die-farbpalette-an-die-daten-an",
+    "href": "index.html#passe-die-farbpalette-an-die-daten-an",
+    "title": "Schöner Visualisieren",
+    "section": "Passe die Farbpalette an die Daten an",
+    "text": "Passe die Farbpalette an die Daten an\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#einheitliches-farbkonzept-durchziehen",
+    "href": "index.html#einheitliches-farbkonzept-durchziehen",
+    "title": "Schöner Visualisieren",
+    "section": "Einheitliches Farbkonzept durchziehen",
+    "text": "Einheitliches Farbkonzept durchziehen\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#zu-komplexe-legende-vermeiden",
+    "href": "index.html#zu-komplexe-legende-vermeiden",
+    "title": "Schöner Visualisieren",
+    "section": "Zu komplexe Legende vermeiden",
+    "text": "Zu komplexe Legende vermeiden\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#ändere-notfalls-den-grafiktyp",
+    "href": "index.html#ändere-notfalls-den-grafiktyp",
+    "title": "Schöner Visualisieren",
+    "section": "Ändere notfalls den Grafiktyp",
+    "text": "Ändere notfalls den Grafiktyp\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#small-multiples-statt-spaghetti",
+    "href": "index.html#small-multiples-statt-spaghetti",
+    "title": "Schöner Visualisieren",
+    "section": "“Small multiples” statt Spaghetti",
+    "text": "“Small multiples” statt Spaghetti\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#kleine-kategorien-zusammenführen",
+    "href": "index.html#kleine-kategorien-zusammenführen",
+    "title": "Schöner Visualisieren",
+    "section": "Kleine Kategorien zusammenführen",
+    "text": "Kleine Kategorien zusammenführen\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#text-und-schriftarten",
+    "href": "index.html#text-und-schriftarten",
+    "title": "Schöner Visualisieren",
+    "section": "Text und Schriftarten",
+    "text": "Text und Schriftarten\n\n\n    \n\n    \n\n\n\n\nQuelle: Datawrapper"
+  },
+  {
+    "objectID": "index.html#grafikbeschriftung",
+    "href": "index.html#grafikbeschriftung",
+    "title": "Schöner Visualisieren",
+    "section": "Grafikbeschriftung",
+    "text": "Grafikbeschriftung\n\n\n\nQuelle: New York Times"
+  },
+  {
+    "objectID": "index.html#unzählige-möglichkeiten-für-grafikbeschriftung",
+    "href": "index.html#unzählige-möglichkeiten-für-grafikbeschriftung",
+    "title": "Schöner Visualisieren",
+    "section": "Unzählige Möglichkeiten für Grafikbeschriftung",
+    "text": "Unzählige Möglichkeiten für Grafikbeschriftung"
+  },
+  {
+    "objectID": "index.html#farbgebung",
+    "href": "index.html#farbgebung",
+    "title": "Schöner Visualisieren",
+    "section": "Farbgebung",
+    "text": "Farbgebung\n\n\n\nQuelle: New York Times"
+  },
+  {
+    "objectID": "index.html#grau-ist-fast-die-wichtigste-farbe",
+    "href": "index.html#grau-ist-fast-die-wichtigste-farbe",
+    "title": "Schöner Visualisieren",
+    "section": "Grau ist (fast) die wichtigste Farbe",
+    "text": "Grau ist (fast) die wichtigste Farbe"
+  },
+  {
+    "objectID": "index.html#small-multiples",
+    "href": "index.html#small-multiples",
+    "title": "Schöner Visualisieren",
+    "section": "Small multiples",
+    "text": "Small multiples"
+  },
+  {
+    "objectID": "index.html#wo-gibt-es-ideen-für-visualisierungen",
+    "href": "index.html#wo-gibt-es-ideen-für-visualisierungen",
+    "title": "Schöner Visualisieren",
+    "section": "Wo gibt es Ideen für Visualisierungen?",
+    "text": "Wo gibt es Ideen für Visualisierungen?\n\nManche internationale Zeitungen haben Grafik-Portale, z.B. Economist, Wall Street Journal, Guardian, etc.\nDie #tidytuesday Gemeinschaft ist eine wöchentliche Grafik-Challenge auf Twitter. Es gibt auch andere Events wie die #30DayChartChallenge im April 2023.\nFolgt der R-Community auf Twitter für Inspiration, z.B. Cédric Scherer, Georios Karamanis, Tanya Shapiro, u.v.m.\nDer “Information is beautiful” Award ist der bekannteste Preis für Informationsgrafiken.\nHomepages und Blogs wie etwa Datawrapper River, Flowing Data oder FiveThirtyEight."
+  },
+  {
+    "objectID": "index.html#es-gibt-mehr-als-nur-balken--und-kreisdiagramme",
+    "href": "index.html#es-gibt-mehr-als-nur-balken--und-kreisdiagramme",
+    "title": "Schöner Visualisieren",
+    "section": "Es gibt mehr als nur Balken- und Kreisdiagramme",
+    "text": "Es gibt mehr als nur Balken- und Kreisdiagramme"
+  },
+  {
+    "objectID": "index.html#weiterführende-literatur",
+    "href": "index.html#weiterführende-literatur",
+    "title": "Schöner Visualisieren",
+    "section": "Weiterführende Literatur",
+    "text": "Weiterführende Literatur\n\n\n\n\n\n\n\n\n\nJonathan Schwabish  Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks  Columbia University Press  ISBN-13: 9780231193115\n\n\n\nDavid Spiegelhalter  The Art of Statistics: Learning from Data  Penguin Books UK  ISBN-13: 9780241258767"
+  },
+  {
+    "objectID": "index.html#online-bücher",
+    "href": "index.html#online-bücher",
+    "title": "Schöner Visualisieren",
+    "section": "Online Bücher",
+    "text": "Online Bücher\n\n\n\n\n\n\n\n\n\nKieran Healy  Data Visualization: A Practical Introduction  Princeton University Press  ISBN-13: 9780691181622  Link\n\n\n\nClaus O. Wilke  Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures  O’Reilly Media  ISBN-13: 9781492031086  Link\n\n\n\nJack Dougherty and Ilya Ilyankou  Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code  O’Reilly Media  ISBN-13: 9781492086000  Link"
+  },
+  {
+    "objectID": "index.html#verwendete-literatur",
+    "href": "index.html#verwendete-literatur",
+    "title": "Schöner Visualisieren",
+    "section": "Verwendete Literatur",
+    "text": "Verwendete Literatur\n\n\n\n\n\nWorkshop Datenvisualisierung | Österreichisches Patentamt | 31. März 2023\n\n\n\nDougherty, Jack/Ilyankou, Ilya (2021). Hands-on data visualization: Interactive storytelling from spreadsheets to code. O’Reilly Media.\n\n\nHealy, Kieran (2018). Data visualization: A practical introduction. Princeton University Press.\n\n\nLauer, Claire/OBrien, Shaun (2020). How people are influenced by deceptive tactics in everyday charts and graphs. IEEE Transactions on Professional Communication, 63(4), 327–340. DOI: 10.1109/tpc.2020.3032053\n\n\nSchwabish, Jonathan A. (2014). An economist’s guide to visualizing data. Journal of Economic Perspectives, 28(1), 209–234. DOI: 10.1257/jep.28.1.209"
+  }
+]
