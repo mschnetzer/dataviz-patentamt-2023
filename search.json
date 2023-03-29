@@ -371,11 +371,81 @@
     "text": "Wo gibt es Ideen für Visualisierungen?\n\nManche internationale Zeitungen haben Grafik-Portale, z.B. Economist, Wall Street Journal, Guardian, etc.\nDie #tidytuesday Gemeinschaft ist eine wöchentliche Grafik-Challenge auf Twitter. Es gibt auch andere Events wie die #30DayChartChallenge im April 2023.\nFolgt der R-Community auf Twitter für Inspiration, z.B. Cédric Scherer, Georios Karamanis, Tanya Shapiro, u.v.m.\nDer “Information is beautiful” Award ist der bekannteste Preis für Informationsgrafiken.\nHomepages und Blogs wie etwa Datawrapper River, Flowing Data oder FiveThirtyEight."
   },
   {
-    "objectID": "index.html#es-gibt-mehr-als-nur-balken--und-kreisdiagramme",
-    "href": "index.html#es-gibt-mehr-als-nur-balken--und-kreisdiagramme",
+    "objectID": "index.html#es-gibt-alternativen-zu-balken--und-kreisdiagrammen",
+    "href": "index.html#es-gibt-alternativen-zu-balken--und-kreisdiagrammen",
     "title": "Schöner Visualisieren",
-    "section": "Es gibt mehr als nur Balken- und Kreisdiagramme",
-    "text": "Es gibt mehr als nur Balken- und Kreisdiagramme"
+    "section": "Es gibt Alternativen zu Balken- und Kreisdiagrammen!",
+    "text": "Es gibt Alternativen zu Balken- und Kreisdiagrammen!"
+  },
+  {
+    "objectID": "index.html#waffle-chart",
+    "href": "index.html#waffle-chart",
+    "title": "Schöner Visualisieren",
+    "section": "Waffle chart",
+    "text": "Waffle chart"
+  },
+  {
+    "objectID": "index.html#karte-als-alternative-zur-tortengrafik",
+    "href": "index.html#karte-als-alternative-zur-tortengrafik",
+    "title": "Schöner Visualisieren",
+    "section": "Karte als Alternative zur Tortengrafik",
+    "text": "Karte als Alternative zur Tortengrafik"
+  },
+  {
+    "objectID": "index.html#area-chart",
+    "href": "index.html#area-chart",
+    "title": "Schöner Visualisieren",
+    "section": "Area chart",
+    "text": "Area chart"
+  },
+  {
+    "objectID": "index.html#small-multiples-1",
+    "href": "index.html#small-multiples-1",
+    "title": "Schöner Visualisieren",
+    "section": "Small multiples",
+    "text": "Small multiples"
+  },
+  {
+    "objectID": "index.html#bump-plot",
+    "href": "index.html#bump-plot",
+    "title": "Schöner Visualisieren",
+    "section": "Bump plot",
+    "text": "Bump plot"
+  },
+  {
+    "objectID": "index.html#hexagon-map",
+    "href": "index.html#hexagon-map",
+    "title": "Schöner Visualisieren",
+    "section": "Hexagon map",
+    "text": "Hexagon map"
+  },
+  {
+    "objectID": "index.html#kräftige-bilder-wählen",
+    "href": "index.html#kräftige-bilder-wählen",
+    "title": "Schöner Visualisieren",
+    "section": "Kräftige Bilder wählen",
+    "text": "Kräftige Bilder wählen"
+  },
+  {
+    "objectID": "index.html#radial-bar-chart-nicht-optimal",
+    "href": "index.html#radial-bar-chart-nicht-optimal",
+    "title": "Schöner Visualisieren",
+    "section": "Radial bar chart (nicht optimal!)",
+    "text": "Radial bar chart (nicht optimal!)"
+  },
+  {
+    "objectID": "index.html#karten-sind-eindrücklich",
+    "href": "index.html#karten-sind-eindrücklich",
+    "title": "Schöner Visualisieren",
+    "section": "Karten sind eindrücklich",
+    "text": "Karten sind eindrücklich"
+  },
+  {
+    "objectID": "index.html#mix-aus-grafik-und-tabelle",
+    "href": "index.html#mix-aus-grafik-und-tabelle",
+    "title": "Schöner Visualisieren",
+    "section": "Mix aus Grafik und Tabelle",
+    "text": "Mix aus Grafik und Tabelle"
   },
   {
     "objectID": "index.html#weiterführende-literatur",
