@@ -29,7 +29,7 @@ format:
     highlight-style: printing
     pause: true
 title-slide-attributes:
-    data-background-image: "img/bgimage.png"
+    data-background-image: "img/bgimage2.png"
     data-background-position: 0% 95%
     data-background-size: contain
 ---
@@ -856,22 +856,50 @@ Quelle: [New York Times](https://www.nytimes.com/interactive/2022/02/01/science/
 - Der ["Information is beautiful" Award](https://www.informationisbeautifulawards.com/showcase?action=index&award=2022&controller=showcase&page=1&pcategory=short-list&type=awards) ist der bekannteste Preis für Informationsgrafiken.
 - Homepages und Blogs wie etwa [Datawrapper River](https://app.datawrapper.de/river), [Flowing Data](https://flowingdata.com) oder [FiveThirtyEight](https://fivethirtyeight.com).
 
-##  Es gibt mehr als nur Balken- und Kreisdiagramme {.medium}
+##  Es gibt Alternativen zu Balken- und Kreisdiagrammen! {.medium}
 
+![](img/alt_stream.png){fig-align="center"}
 
-::: {.columns .center style="font-size:1.3rem;"}
-::: {.column}
-![](img/alt_stream.png){height="520"}
-:::
-::: {.column}
-::: {.fragment}
-![](img/alt_waffle.png){height="250"}
-:::
-::: {.fragment}
-![](img/alt_map.png){height="250"}
-:::
-:::
-:::
+## Waffle chart
+
+![](img/alt_waffle.png){fig-align="center"}
+
+## Karte als Alternative zur Tortengrafik
+
+![](img/alt_map.png){fig-align="center"}
+
+## Area chart {.medium}
+
+![](img/bsp_careage.png){fig-align="center"}
+
+## Small multiples
+
+![](img/bsp_hitzetagewien.png){fig-align="center"}
+
+## Bump plot
+
+![](img/bsp_inflationbump.png){fig-align="center"}
+
+## Hexagon map
+
+![](img/bsp_gpghexflat.png){fig-align="center"}
+
+## Kräftige Bilder wählen
+
+![](img/bsp_galaxy_of_wealth.png){fig-align="center"}
+
+## Radial bar chart (nicht optimal!)
+
+![](img/bsp_opernball.png){fig-align="center"}
+
+## Karten sind eindrücklich
+
+![](img/bsp_wienplot.png){fig-align="center"}
+
+## Mix aus Grafik und Tabelle
+
+![](img/bsp_wages.png){fig-align="center"}
+
 
 ## Weiterführende Literatur 
 
